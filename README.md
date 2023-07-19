@@ -1,0 +1,30 @@
+### Running Benchmarks for UI Frameworks
+
+- Next.js 13 Pages Directory
+  - Chakra UI (Runtime, CSS-in-JS)
+    - First Load JS: 160.00KB
+    - npm run build: 14.28s
+    - npm run build: 13.66s
+    - npm run build: 13.92s
+  - Tailwind CSS (No Runtime, CSS)
+    - First Load JS: 79.8KB
+      - CSS 14KB
+    - npm run build: 8.44s
+    - npm run build: 8.23s
+    - npm run build: 8.67s
+- Next.js 13 App Directory
+  - Chakra UI (Runtime, CSS-in-JS)
+    - First Load JS: 104.00kB
+    - npm run build: 13.23s
+    - npm run build: 12.93s
+    - npm run build: 13.14s
+    - FCP: 0.4s
+    - CLS: 0.003
+  - Tailwind CSS (No Runtime, CSS)
+    - First Load JS: 82.4KB
+      - CSS 14KB
+    - npm run build: 10.00s
+    - npm run build: 10.22s
+    - npm run build: 09.84s
+    - FCP: 0.5s
+    - CLS: 0.0
